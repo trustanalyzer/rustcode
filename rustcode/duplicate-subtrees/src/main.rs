@@ -32,6 +32,7 @@ fn main() {
                     match trees[2*c+2] {
                         Some(c2) => ser.push_str(&c2.to_string()),
                         None => ser.push_str("null"),
+                    };
                 };
 
                 c = 2*c+1;

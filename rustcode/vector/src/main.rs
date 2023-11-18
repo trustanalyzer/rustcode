@@ -15,12 +15,4 @@ fn main() {
     } else {
         println!("no fifth element!");
     }
-
-    let mut v = v.clone();
-    for i in &mut v {
-        *i += 5;
-    }
-    println!("{:?}", v);
-
-
 }
